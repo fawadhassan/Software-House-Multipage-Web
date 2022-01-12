@@ -1,0 +1,22 @@
+/* ul{
+    list-style: none;
+    
+} */
+
+body{
+    padding: 3.3rem;
+    
+}
+
+.navbar-toggler{
+    
+   border-color: rebeccapurple;
+   border-width: 0.3rem;
+}
+
+.jumbotron{
+    background-color: red;
+    padding: 70px 30px 70px 30;
+    margin-top: 0.3rem;
+    
+}
