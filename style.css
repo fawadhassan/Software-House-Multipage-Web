@@ -15,6 +15,7 @@
     --tc: #1D1D1F;
     --bgc1:#F5F5F7;
     --bgc2: #FBFBFD;
+    --tc1:#ff6600;
 }
 
 body{
@@ -492,23 +493,26 @@ card-body{
     margin-top: 5rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    height: 130vh;
 
 }
 
 .contact .heading{
     text-align: center;
+    font-weight: bold;
 
 }
 
 .contact .title{
     text-align: center;
+    font-weight: 700;
 }
 
 .contact .row{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem 0;
+    padding: 2rem 0;
 }
 
 .contact .row .image{
@@ -555,7 +559,7 @@ card-body{
 }
 
 .contact .row .form-container  textarea{
-    height: 20rem;
+    height: 10rem;
     border-radius: 1rem;
     padding: 1rem;
     resize: none;
@@ -564,7 +568,52 @@ card-body{
 .contact .row .form-container{
     width: 50%;
     padding-right: 6rem;
+    
 }
+
+.contact .icons {
+    padding: 3rem 0;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+ .icons a{
+  height: 5rem;
+  width: 5rem;
+  line-height: 4.2rem;
+  text-align: center;
+  border-radius: 100%;
+  color: var(--tc1);
+  align-items: center;
+  font-size: 2rem;
+  margin: 0 .1rem;
+  transition: .2s linear;  
+  background: floralwhite;
+
+}
+
+.icons a:hover{
+ transform: translate(2px,-9px);
+
+}
+
+.credit{
+    font-size: 1.5rem;
+    border-top: .1rem solid var(--bgc1);
+    margin: o auto;
+    color: var(--tc);
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+
+.credit span{
+    font-size: 1.3rem;
+    color: var(--tc1);
+}
+
 
 /* Know Classes */
 .company h3{
@@ -589,7 +638,10 @@ card-body{
     text-align: justify;
 }
 
-
+/* Footer */
+footer{
+    text-align: center;
+}
 
 
 /* Media Querries */
